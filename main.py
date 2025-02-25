@@ -9,3 +9,7 @@ def hello():
 @app.get("/fuck")
 def fuck():
     return "FUCK!!!!!"
+
+@app.get("/wow")
+def wow():
+    return "해냇다 시바!!!"
